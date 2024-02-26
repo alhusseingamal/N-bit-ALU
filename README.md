@@ -20,7 +20,7 @@ The ALU supports a total of 20 instructions, encompassing a wide array of arithm
 ### adder_Nbit
 
 This module is the main component of part A and is the module responsible for performing N-bit arithmetic operations. To optimize performance and minimize propagation delay, this adder utilizes the carry select adder architecture. By dynamically adjusting the composition of CSA_4bit and FA modules to accomodate the N bits, the `adder_Nbit` achieves optimal resource utilization while minimizing latency and power consumption. It does so by assigning using as much of the 4bit Carry Select Adders as possible and if there are any left bits, it uses Full Adders for them.
-Here is a photo of the a 16-bit version of the adder_Nbit:
+Here is a photo of the a 16-bit version of the adder_Nbit:  
 ![adder_Nbit](https://github.com/alhusseingamal/N-bit-ALU/blob/main/screenshots/adder_16bit.PNG)
 #### Note: At first, A Ripple Carry Adder was used but then I opted that all 4-bit adders are CSA to enhance modularity and performance.  
 
@@ -47,6 +47,3 @@ The `FA` module, or Full Adder, complements the CSA_4bit architecture by providi
 ![ALU synthesis](https://github.com/alhusseingamal/N-bit-ALU/blob/main/screenshots/ALU%20RTL%20synthesis.PNG)
 
 #### Individual simulation results for each entity on its own can be found under the screenshots directory.
-
-## License
-This project is licensed under the [MIT License](LICENSE), granting you the freedom to use, modify, and distribute the code for both personal and commercial purposes. Contributions are welcomed and encouraged, as we strive to continually enhance the capabilities and versatility of the N-bit ALU for the benefit of the broader digital design community.
