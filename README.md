@@ -33,12 +33,12 @@ The `CSA_4bit` module embodies the principle of parallelism, facilitating rapid 
 
 The `FA` module, or Full Adder, complements the CSA_4bit architecture by providing support for lower-order bits in multi-bit addition operations. By seamlessly integrating with the `adder_Nbit` module, FA modules ensure comprehensive coverage of all bits in N-bit addition operations, guaranteeing accurate and reliable computation across a wide range of scenarios.
 
-## Simulation Results
+## Simulation Results for a 16-bit ALU
 
 ### ALU testbench
 ![ALU simulation](https://github.com/alhusseingamal/N-bit-ALU/blob/main/screenshots/ALU_tb%20output.PNG)
 
-## Synthesis Results
+## Synthesis Results for a 16-bit ALU
 
 ### part A
 ![part A synthesis](https://github.com/alhusseingamal/N-bit-ALU/blob/main/screenshots/PartA%20RTL%20synthesis.PNG)
