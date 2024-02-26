@@ -38,7 +38,7 @@ The `FA` module, or Full Adder, complements the CSA_4bit architecture by providi
 ### ALU testbench
 ![ALU simulation](https://github.com/alhusseingamal/N-bit-ALU/blob/main/screenshots/ALU_tb%20output.PNG)
 
-## Synthesis
+## Synthesis Results
 
 ### part A
 ![part A synthesis](https://github.com/alhusseingamal/N-bit-ALU/blob/main/screenshots/PartA%20RTL%20synthesis.PNG)
