@@ -24,7 +24,7 @@ This module is the main component of part A and is the module responsible for pe
 ### CSA_4bit
 
 The `CSA_4bit` module embodies the principle of parallelism, facilitating rapid generation of sum and carry outputs for 4-bit addition operations. Employing a combination of carry lookahead and selection logic, this module delivers exceptional speed and efficiency, making it an indispensable component of the ALU's arithmetic capabilities. The CSA architecture is shown below:
-![ALU Instructiosn](https://github.com/alhusseingamal/N-bit-ALU/blob/main/screenshots/Carry_Select_Adder_Architecture.PNG)
+![ALU Instructiosn](https://github.com/alhusseingamal/N-bit-ALU/blob/main/screenshots/Carry_Select_Adder_Architecture.png)
 
 ### FA
 
